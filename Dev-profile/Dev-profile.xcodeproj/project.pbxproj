@@ -12,6 +12,7 @@
 		42623B6C1FF9425700100BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42623B6A1FF9425700100BAC /* Main.storyboard */; };
 		42623B6E1FF9425700100BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42623B6D1FF9425700100BAC /* Assets.xcassets */; };
 		42623B711FF9425700100BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42623B6F1FF9425700100BAC /* LaunchScreen.storyboard */; };
+		42623B7A1FF9516100100BAC /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42623B791FF9516100100BAC /* CornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		42623B6D1FF9425700100BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42623B701FF9425700100BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42623B721FF9425700100BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42623B791FF9516100100BAC /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		42623B651FF9425700100BAC /* Dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				42623B781FF9510100100BAC /* View */,
 				42623B661FF9425700100BAC /* AppDelegate.swift */,
 				42623B681FF9425700100BAC /* ViewController.swift */,
 				42623B6A1FF9425700100BAC /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				42623B721FF9425700100BAC /* Info.plist */,
 			);
 			path = "Dev-profile";
+			sourceTree = "<group>";
+		};
+		42623B781FF9510100100BAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42623B791FF9516100100BAC /* CornerRadius.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				42623B691FF9425700100BAC /* ViewController.swift in Sources */,
 				42623B671FF9425700100BAC /* AppDelegate.swift in Sources */,
+				42623B7A1FF9516100100BAC /* CornerRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dev-profile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nemam.Dev-profile";
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dev-profile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nemam.Dev-profile";
