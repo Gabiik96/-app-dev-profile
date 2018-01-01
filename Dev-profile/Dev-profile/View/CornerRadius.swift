@@ -16,3 +16,12 @@ class CornerRadius: UIImageView {
         layer.masksToBounds = true
     }
 }
+
+class CornerRadiusBtn: UIButton {
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        layer.cornerRadius = 10
+        layer.masksToBounds = true
+    }
+}
